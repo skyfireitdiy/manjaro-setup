@@ -28,6 +28,7 @@ git config --global alias.mg merge
 git config --global alias.cp cherry-pick
 git config --global alias.rb rebase
 git config --global pull.rebase true
+git config --global core.editor vim
 
 # fish abbr
 fish -c "abbr -a -U -- a 'abbr -a'"
@@ -36,8 +37,10 @@ fish -c "abbr -a -U -- gpl 'git pull'"
 fish -c "abbr -a -U -- gps 'git push'"
 fish -c "abbr -a -U -- gs 'git status'"
 fish -c "abbr -a -U -- xm xmake"
-fish -c "abbr -a -U -- yi 'sudo apt install -y'"
-fish -c "abbr -a -U -- yu 'sudo apt update'"
+fish -c "abbr -a -U -- yi 'yay -S'"
+fish -c "abbr -a -U -- yu 'yay -Sy'"
+fish -c "abbr -a -U -- yuu 'yay -Su'"
+fish -c "abbr -a -U -- ys 'yay -Ss'"
 fish -c "abbr -a -U -- ga 'git add -u'"
 fish -c "abbr -a -U -- gc 'git commit'"
 fish -c "abbr -a -U -- gl 'git lg'"
